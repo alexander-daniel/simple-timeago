@@ -20,13 +20,11 @@ var settings = {
     years: '%d years'
 };
 
-function timeAgo (since, opts) {
+function timeAgo (since, until) {
     if (since == null) since = new Date();
-    if (opts == null) opts = {};
+    if (until == null) until = new Date();
 
-    opts.till = opts.till || new Date();
-
-    return inWords(opts.till.getTime() - since.getTime());
+    return inWords(until.getTime() - since.getTime());
 }
 
 function substitute (string, number) {
