@@ -1,6 +1,6 @@
 {
   "name": "simple-timeago",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "tap test",
