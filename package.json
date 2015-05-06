@@ -1,0 +1,31 @@
+{
+  "name": "simple-timeago",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test",
+    "coverage": "istanbul cover test/test.js"
+  },
+  "author": "Alexander Vados <alex.vados@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.13",
+    "tap": "^0.7.1",
+    "tape": "^4.0.0"
+  },
+  "description": "simple time-ago to words",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexander-daniel/simple-timeago.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexander-daniel/simple-timeago/issues"
+  },
+  "homepage": "https://github.com/alexander-daniel/simple-timeago"
+}
